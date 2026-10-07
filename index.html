@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi proyecto</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1>Ejercicios de JavaScript</h1>
+    <h4>Ejercicio 1: Año Bisiesto </h4>
+    <p>Estructuras condicionales, operadores, funciones
+        Escribí un programa que dado un año como entrada diga si es bisiesto o no.
+        Tener en cuenta que un año es bisiesto si:
+        Divisible por 4.
+        No divisible por 100.
+        Divisible por 400. (2000 y 2400 son bisiestos pues aún siendo divisibles por 100 lo son también por 400.
+        Pero los años 1900, 2100, 2200 y 2300 no lo son porque solo son divisibles por 100).</p>
+    <label for="anioInput">Ingresa un año: </label>
+    <input type="number" id="anioInput" placeholder="Ej: 1924">
+    <button onclick="calcularBisiesto()">Verificar</button>
+    <p id="resultado"></p>
+    <script src="Ej1.js"></script>
 </body>
 </html>
